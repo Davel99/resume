@@ -1,7 +1,7 @@
 const Experience = () => {
     return (
         <div className="container">
-            <h1>Hello from Experience</h1>
+            <h1 className="text-center py-3 bg-semid">Experiencia profesional</h1>
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <span>CFE</span>
