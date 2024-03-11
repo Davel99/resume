@@ -14,7 +14,7 @@ function App() {
       <header>
         <Header></Header>
       </header>
-      <main className="text-white">
+      <main className="text-white py-5">
         <Routes>
           <Route path='/home' Component={Home} />
           <Route path='/' Component={Home} />
