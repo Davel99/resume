@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/home' Component={Home} />
           <Route path='/' Component={Home} />
+          <Route path='/my-profile' Component={Home} />
         </Routes>
         <Footer></Footer>
       </div>
