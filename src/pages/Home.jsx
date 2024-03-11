@@ -1,5 +1,5 @@
-import HomePresentation from "../subcomponents/HomePresentation"
-import PresentationCard from "../subcomponents/PresentationCard"
+import HomePresentation from "./subcomponents/HomePresentation"
+import PresentationCard from "./subcomponents/PresentationCard"
 
 const Home = () => {
     return (
