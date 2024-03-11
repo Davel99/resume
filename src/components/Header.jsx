@@ -6,6 +6,8 @@ const Header = () => {
     const location = useLocation();
     const path = location.pathname;
     const isHome = path == '/' || path == '/home' || path == '/my-profile'
+    let li = []
+    li["home"] = isHome ? 'nav-link active' : 'nav-link'
     return (
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
             <div class="container-fluid">
@@ -17,13 +19,13 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link class={isHome ? 'nav-link active' : 'nav-link'} aria-current="page" to="/my-profile">Home</Link>
+                            <Link class={li["home"]} aria-current="page" to="/my-profile">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Experiencia profesional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Proyectos realizados</a>
                         </li>
                     </ul>
                 </div>
