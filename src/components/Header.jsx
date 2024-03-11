@@ -26,12 +26,15 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            <i class="fa-solid fa-house"></i>
                             <Link class={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">Home</Link>
                         </li>
                         <li class="nav-item">
+                            <i class="fa-solid fa-helmet-safety"></i>
                             <Link class={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">Experiencia profesional</Link>
                         </li>
                         <li class="nav-item">
+                            <i class="fa-solid fa-hammer"></i>
                             <Link class={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">Projectos realizados</Link>
                         </li>
                     </ul>
