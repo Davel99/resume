@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer'
 import Home from './pages/Home';
+import i18n from './config/i18n';
 
 
 function App() {
