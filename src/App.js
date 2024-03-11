@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Footer from './components/Footer'
 import Home from './pages/Home';
 import i18n from './config/i18n';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Route path='/home' Component={Home} />
           <Route path='/' Component={Home} />
           <Route path='/my-profile' Component={Home} />
+          <Route path='/my-experience' Component={Experience} />
+          <Route path='/my-projects' Component={Projects} />
         </Routes>
         <Footer></Footer>
       </div>

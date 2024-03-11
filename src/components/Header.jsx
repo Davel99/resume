@@ -5,9 +5,16 @@ const Header = () => {
     const { t } = useTranslation();
     const location = useLocation();
     const path = location.pathname;
-    const isHome = path == '/' || path == '/home' || path == '/my-profile'
+    const isHome = path == '/' || path == '/home' || path == '/my-profile';
+    const isExperience = path == '/my-experience';
+    const isProjects = path == '/my-projects';
+    const navLink = "nav-link"
+    const activeLink = navLink + " active"
     let li = []
-    li["home"] = isHome ? 'nav-link active' : 'nav-link'
+    li["home"] = isHome ? activeLink : navLink
+    li["experience"] = isExperience ? activeLink : navLink
+    li["projects"] = isProjects ? activeLink : navLink
+
     return (
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
             <div class="container-fluid">
@@ -19,13 +26,13 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link class={li["home"]} aria-current="page" to="/my-profile">Home</Link>
+                            <Link class={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experiencia profesional</a>
+                            <Link class={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">Experiencia profesional</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos realizados</a>
+                            <Link class={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">Projectos realizados</Link>
                         </li>
                     </ul>
                 </div>
