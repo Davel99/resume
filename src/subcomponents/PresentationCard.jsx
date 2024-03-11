@@ -53,7 +53,7 @@ const PresentationCard = () => {
                         <span>Github:</span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a href="https://github.com/Davel99">@Davel99</a>
+                        <a target="__blank" href="https://github.com/Davel99">@Davel99</a>
                     </div>
                 </li>
             </ul>
