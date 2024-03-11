@@ -1,3 +1,5 @@
+import RepoLink from "./microcomponents/RepoLink"
+
 const Projects = () => {
     return (
         <div className="container">
@@ -10,9 +12,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <a href="https://github.com/Davel99/cfe_app/tree/main" className="btn btn-danger w-100">
-                            Ver repositorio de este proyecto
-                        </a>
+                        <RepoLink href="https://github.com/Davel99/cfe_app/tree/main" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
