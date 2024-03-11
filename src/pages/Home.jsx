@@ -1,5 +1,6 @@
 import HomePresentation from "./subcomponents/HomePresentation"
 import PresentationCard from "./subcomponents/PresentationCard"
+import LinkRepo from "./microcomponents/RepoLink"
 
 const Home = () => {
     return (
@@ -13,11 +14,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <a target="__blank" className="btn w-100 my-3 btn-danger d-flex align-items-center justify-content-center" href="https://github.com/Davel99/resume">
-                <i class="fa-brands fa-github"></i>
-                <span>&nbsp;Este repositorio &nbsp;</span>
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            <LinkRepo href="https://github.com/Davel99/resume">Visita el repositorio de esta web</LinkRepo>
         </div>
 
     )
