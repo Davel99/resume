@@ -1,3 +1,4 @@
+import ProjectHeading from "./microcomponents/ProjectHeading"
 import RepoLink from "./microcomponents/RepoLink"
 
 const Projects = () => {
@@ -6,9 +7,10 @@ const Projects = () => {
             <h1 className="text-center py-3 bg-semid">Proyectos realizados</h1>
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
-                    <span>Dirigido a trabajadores de la CFE</span>
-                    <h3>Aplicación web de análisis de datos</h3>
-                    <span>Proyecto parte de mis prácticas profesionales</span>
+                    <ProjectHeading 
+                    to="Dirigido a trabajadores de la CFE" 
+                    title="Aplicación web de análisis de datos" 
+                    source="Proyecto parte de mis prácticas profesionales"/>
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
