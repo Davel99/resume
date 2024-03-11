@@ -11,19 +11,19 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <header>
         <Header></Header>
-        <main className="bg-dark">
-          <Routes>
-            <Route path='/home' Component={Home} />
-            <Route path='/' Component={Home} />
-            <Route path='/my-profile' Component={Home} />
-            <Route path='/my-experience' Component={Experience} />
-            <Route path='/my-projects' Component={Projects} />
-          </Routes>
-        </main>
-        <Footer></Footer>
-      </div>
+      </header>
+      <main className="text-white">
+        <Routes>
+          <Route path='/home' Component={Home} />
+          <Route path='/' Component={Home} />
+          <Route path='/my-profile' Component={Home} />
+          <Route path='/my-experience' Component={Experience} />
+          <Route path='/my-projects' Component={Projects} />
+        </Routes>
+      </main>
+      <Footer></Footer>
     </Router>
   );
 }
