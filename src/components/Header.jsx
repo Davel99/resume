@@ -27,15 +27,21 @@ const Header = () => {
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <i class="fa-solid fa-house"></i>
-                            <Link class={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">Home</Link>
+                            <Link class={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">
+                                {t('header.home')}
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <i class="fa-solid fa-helmet-safety"></i>
-                            <Link class={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">Experiencia profesional</Link>
+                            <Link class={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">
+                                {t('header.experience')}
+                            </Link>
                         </li>
                         <li class="nav-item">
                             <i class="fa-solid fa-hammer"></i>
-                            <Link class={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">Projectos realizados</Link>
+                            <Link class={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">
+                                {t('header.projects')}
+                            </Link>
                         </li>
                     </ul>
                 </div>

@@ -1,5 +1,8 @@
 {
-    "hello": "Hola",
-    "welcome": "Bienvenido a nuestro sitio web"
+    "header":{
+        "home": "Inicio",
+        "experience": "Experiencia profesional",
+        "projects": "Proyectos realizados"
+    }
 }
   
