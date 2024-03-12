@@ -6,7 +6,7 @@ const PresentationCard = () => {
     return (
         <div className="card">
             <div className="card-header mb-3 text-center"></div>
-            <img className="card-img-to profile-pic m-auto" src="./foto-perfil.png" alt="Profile pic" />
+            <img className="card-img-to profile-pic m-auto" src="/resume/foto-perfil.png" alt="Profile pic" />
             <div className="card-body text-dark text-center">
                 <h3 className="card-title pt-3">
                     Joel David
