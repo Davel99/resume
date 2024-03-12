@@ -6,11 +6,13 @@ import Home from './pages/Home';
 import i18n from './config/i18n';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
+import ScrollToTop from './utility/ScrollToTop';
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <header>
         <Header></Header>
       </header>
