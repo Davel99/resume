@@ -17,29 +17,29 @@ const Header = () => {
     li["projects"] = isProjects ? activeLink : navLink
 
     return (
-        <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
-            <div class="container-fluid">
-                <Link class="navbar-brand fw-bold fs-4" to="/my-profile">Joel David G.O</Link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
+            <div className="container-fluid">
+                <Link className="navbar-brand fw-bold fs-4" to="/my-profile">Joel David G.O</Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <i class="fa-solid fa-house"></i>
-                            <Link class={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <i className="fa-solid fa-house"></i>
+                            <Link className={li["home"]} aria-current={isHome ? 'page' : ''} to="/my-profile">
                                 {t('header.home')}
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <i class="fa-solid fa-helmet-safety"></i>
-                            <Link class={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">
+                        <li className="nav-item">
+                            <i className="fa-solid fa-helmet-safety"></i>
+                            <Link className={li["experience"]} aria-current={isExperience ? 'page' : ''} to="/my-experience">
                                 {t('header.experience')}
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <i class="fa-solid fa-hammer"></i>
-                            <Link class={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">
+                        <li className="nav-item">
+                            <i className="fa-solid fa-hammer"></i>
+                            <Link className={li["projects"]} aria-current={isProjects ? 'page' : ''} to="/my-projects">
                                 {t('header.projects')}
                             </Link>
                         </li>

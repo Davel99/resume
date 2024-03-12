@@ -6,7 +6,7 @@ const Home = () => {
     const { t } = useTranslation();
 
     return (
-        <div class="container pt-5">
+        <div className="container pt-5">
             <div className="row">
                 <div className="col-sm-12 col-md-4 text-dark">
                     <PresentationCard></PresentationCard>

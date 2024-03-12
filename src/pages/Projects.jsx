@@ -36,7 +36,7 @@ const Projects = () => {
                     <span className="fw-bold">
                         {t('gral.tech_used')}
                     </span>
-                    <ul class="list-group list-group-horizontal">
+                    <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">PHP (MVC pattern)</li>
                         <li className="list-group-item">Javascript</li>
                         <li className="list-group-item">Jquery</li>
@@ -64,7 +64,7 @@ const Projects = () => {
                         {t('projects.resume.content')}
                     </p>
                     <span className="fw-bold">{t('gral.tech_used')}</span>
-                    <ul class="list-group list-group-horizontal">
+                    <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">ReactJS</li>
                         <li className="list-group-item">React Router</li>
                         <li className="list-group-item">i18n (for multiple languages)</li>
@@ -94,7 +94,7 @@ const Projects = () => {
                     <span className="fw-bold">
                         {t('gral.tech_used')}
                     </span>
-                    <ul class="list-group list-group-horizontal">
+                    <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">ExpressJS</li>
                         <li className="list-group-item">Typescript</li>
                         <li className="list-group-item">Arquitectura por capas</li>
@@ -125,7 +125,7 @@ const Projects = () => {
                     <span className="fw-bold">
                         {t('gral.tech_used')}
                     </span>
-                    <ul class="list-group list-group-horizontal">
+                    <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">PHP (Wordpress)</li>
                         <li className="list-group-item">Javascript</li>
                         <li className="list-group-item">Wordpress-CLI</li>
@@ -156,7 +156,7 @@ const Projects = () => {
                     <span className="fw-bold">
                         {t('gral.tech_used')}
                     </span>
-                    <ul class="list-group list-group-horizontal">
+                    <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">Javascript</li>
                         <li className="list-group-item">Webpack</li>
                         <li className="list-group-item">Bootstrap 5</li>

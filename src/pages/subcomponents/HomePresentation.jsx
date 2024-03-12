@@ -31,13 +31,13 @@ const HomePresentation = () => {
                 <span>
                     {t('header.experience')}
                     &nbsp;</span>
-                <i class="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right"></i>
             </Link>
             <Link className="btn w-100 my-3 btn-primary d-flex align-items-center justify-content-center" to="/my-projects">
                 <span>
                     {t('header.projects')}
                     &nbsp;</span>
-                <i class="fa-solid fa-arrow-right"></i>
+                <i className="fa-solid fa-arrow-right"></i>
             </Link>
 
             <div className="container mx-0 px-3">
@@ -60,7 +60,7 @@ const HomePresentation = () => {
                             {t('projects.resume.content')}
                         </p>
                         <span className="fw-bold">{t('gral.tech_used')}</span>
-                        <ul class="list-group list-group-horizontal">
+                        <ul className="list-group list-group-horizontal">
                             <li className="list-group-item">ReactJS</li>
                             <li className="list-group-item">React Router</li>
                             <li className="list-group-item">i18n (for multiple languages)</li>
