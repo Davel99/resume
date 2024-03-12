@@ -13,6 +13,9 @@
             "info_1": "Al estudiar mi carrera, desarrollé un gusto especial por todo lo relacionado al software. Realicé mis prácticas profesionales en CFE (organismo del gobierno) desarrollando una aplicación web para el análisis de datos.            Más adelante construí una aplicación web destinada a consultorios médicos como parte de mi tesis profesional.",
             "info_2": "Gracias a mi gusto por la programación y mi constante interés en perseguir una carrera al respecto, hoy en día soy un ingeniero con más de dos años de experiencia en el desarrollo de software.",
             "goodbye": "Contáctame si tienes alguna duda"
+        },
+        "projects":{
+            "aclaration": "Debido a acuerdos de No-divulgación, no puedo mostrar el código de mis proyectos realizados en Infosys ni hablar sobre los clientes con los que he trabajado. La siguiente información corresponde a proyectos personales que demuestran mis habilidades"
         }
     },
     "experience": {
@@ -41,10 +44,35 @@
     "projects": {
         "resume": {
             "to": "Sobre esta página web",
-            "title": "SPA hecha con ReactJS",
+            "title": "Curriculum online hecho con ReactJS",
             "source": "Proyecto personal",
             "content": "Desarrollé esta web como prueba de mis habilidades y para mostrar mis otros proyectos"
+        },
+        "cfe": {
+            "to": "Dirigido a trabajadores de la CFE",
+            "title": "Aplicación web de análisis de datos",
+            "source": "Proyecto parte de mis prácticas profesionales",
+            "content": "Desarrollé de una aplicación web con PHP para la automatización de un análisis de datos mensual realizado por el Departamento de Contratos Legados. Se trata de una aplicación con arquitectura MVC que lee y genera archivos csv/xlsx con información filtrada según lo que pida el usuario. Tiene Administradores, Usuarios, control de contraseñas y una interfaz amigable realizada con Boostrap."
+        },
+        "lishor": {
+            "to": "Dirigido a quien sea que desee tener su propio Acortador de Links",
+            "title": "Acortador de Links",
+            "source": "Proyecto personal",
+            "content": "Desarrollé de una aplicación web con ExpressJS + Typescript para acortar links. Está dockerizada y lista para usar. Mi objetivo personal era aplicar todos los conceptos profesionales de desarrollo que he adquirido en Infosys (TDD, Arquitectura por capas, Programación Orientada a Objetos, Data Transfer Objects, Error Handling, etc...)"
+        },
+        "davel": {
+            "to": "Dirigido a un escritor",
+            "title": "Blog de Wordpress para escritor",
+            "source": "Proyecto personal",
+            "content": "Desarrollé un Wordpress theme para un escritor. Tiene estilos personalizados y creación de publicaciones especializadas (Libros). Visite la página web para ver el trabajo final."
+        },
+        "letras": {
+            "to": "Dirigido a escritores",
+            "title": "Aplicación web para el procesamiento de textos",
+            "source": "Proyecto personal",
+            "content": "Desarrollé una aplicación web dirigida a escritores. Su objetivo es contabilizar y formatear texto con una interfaz amigable. Visite la página web para ver el trabajo final."
         }
+        
     },
     "langs": {
         "language": "Lenguaje",

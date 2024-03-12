@@ -1,41 +1,41 @@
 import ExtLink from "./microcomponents/ExtLink"
 import ProjectHeading from "./microcomponents/ProjectHeading"
 import RepoLink from "./microcomponents/RepoLink"
+import { useTranslation } from "react-i18next"
 
 const Projects = () => {
+    const { t } = useTranslation();
     return (
         <div className="container">
-            <h1 className="text-center py-3 bg-semid">Proyectos realizados</h1>
+            <h1 className="text-center py-3 bg-semid">
+                {t('header.projects')}
+            </h1>
             <div className="row bg-semid p-3 rounded">
                 <p>
-                    Debido a acuerdos de No-Divulgación, no puedo hablar sobre mis proyectos realizados con Infosys ni los clientes
-                    con los que trabajé.
-                    La información general sobre esos proyectos pueden encontrarla en la sección Experiencia Profesional.
-                </p>
-                <p>
-                    Aquí les ofrezco un resumen de mis proyectos personales que demuestran mis habilidades
+                    {t('pages.projects.aclaration')}
                 </p>
             </div>
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Dirigido a trabajadores de la CFE"
-                        title="Aplicación web de análisis de datos"
-                        source="Proyecto parte de mis prácticas profesionales" />
+                        to={t('projects.cfe.to')}
+                        title={t('projects.cfe.title')}
+                        source={t('projects.cfe.source')} />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <RepoLink href="https://github.com/Davel99/cfe_app/tree/main" />
+                        <RepoLink href="https://github.com/Davel99/cfe_app/tree/main">
+                            {t('gral.visit_repo')}
+                        </RepoLink>
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé de una aplicación web con PHP para la automatización de un análisis de datos mensual realizado por
-                        el Departamento de Contratos Legados. Se trata de una aplicación con arquitectura MVC que lee y genera archivos csv/xlsx
-                        con información filtrada según lo que pida el usuario. Tiene Administradores, Usuarios, control de contraseñas y una
-                        interfaz amigable realizada con Boostrap.
+                        {t('projects.cfe.content')}
                     </p>
-                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <span className="fw-bold">
+                        {t('gral.tech_used')}
+                    </span>
                     <ul class="list-group list-group-horizontal">
                         <li className="list-group-item">PHP (MVC pattern)</li>
                         <li className="list-group-item">Javascript</li>
@@ -48,19 +48,22 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Sobre página web"
-                        title="SPA hecha en ReactJS"
-                        source="Proyecto personal" />
+                        to={t('projects.resume.to')}
+                        title={t('projects.resume.title')}
+                        source={t('projects.resume.source')} />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
+                        <RepoLink href="https://github.com/Davel99/resume">
+                            {t('gral.visit_repo')}
+                        </RepoLink>
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé esta aplicación como prueba de mis habilidades y para mostrar mis otros proyectos
+                        {t('projects.resume.content')}
                     </p>
-                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <span className="fw-bold">{t('gral.tech_used')}</span>
                     <ul class="list-group list-group-horizontal">
                         <li className="list-group-item">ReactJS</li>
                         <li className="list-group-item">React Router</li>
@@ -73,22 +76,24 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Dirigido a quien sea que desee tener su propio Acortador de Links"
-                        title="Acortador de Links"
-                        source="Proyecto personal" />
+                        to={t('projects.lishor.to')}
+                        title={t('projects.lishor.title')}
+                        source={t('projects.lishor.source')} />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <RepoLink href="https://github.com/Davel99/link-shortener-expressts/tree/main" />
+                        <RepoLink href="https://github.com/Davel99/link-shortener-expressts/tree/main">
+                            {t('gral.visit_repo')}
+                        </RepoLink>
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé de una aplicación web con ExpressJS + Typescript para acortar links. Está dockerizada y lista para usar.
-                        Mi objetivo personal era aplicar todos los conceptos profesionales de desarrollo que he adquirido en Infosys
-                        (TDD, Arquitectura por capas, Programación Orientada a Objetos, Data Transfer Objects, Error Handling, etc...)
+                        {t('projects.lishor.content')}
                     </p>
-                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <span className="fw-bold">
+                        {t('gral.tech_used')}
+                    </span>
                     <ul class="list-group list-group-horizontal">
                         <li className="list-group-item">ExpressJS</li>
                         <li className="list-group-item">Typescript</li>
@@ -102,22 +107,25 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Dirigido a un escritor"
-                        title="Blog de Wordpress para escritor"
-                        source="Proyecto personal" />
+                        to={t('projects.davel.to')}
+                        title={t('projects.davel.title')}
+                        source={t('projects.davel.source')} />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <RepoLink href="https://github.com/Davel99/davel-blog-v1/tree/main" />
+                        <RepoLink href="https://github.com/Davel99/davel-blog-v1/tree/main">
+                            {t('gral.visit_repo')}
+                        </RepoLink>
                         <ExtLink href="https://davelgomoz.com/" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé un Wordpress theme para un escritor. Tiene estilos personalizados y creación de publicaciones especializadas
-                        (Libros). Visite la página web para ver el trabajo final.
+                        {t('projects.davel.content')}
                     </p>
-                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <span className="fw-bold">
+                        {t('gral.tech_used')}
+                    </span>
                     <ul class="list-group list-group-horizontal">
                         <li className="list-group-item">PHP (Wordpress)</li>
                         <li className="list-group-item">Javascript</li>
@@ -130,23 +138,25 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Dirigido a escritores"
-                        title="Aplicación web para el procesamiento de textos"
-                        source="Proyecto personal" />
+                        to={t('projects.letras.to')}
+                        title={t('projects.letras.title')}
+                        source={t('projects.letras.source')} />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <RepoLink href="https://github.com/Davel99/letras-app-v1/tree/main" />
+                        <RepoLink href="https://github.com/Davel99/letras-app-v1/tree/main">
+                            {t('gral.visit_repo')}
+                        </RepoLink>
                         <ExtLink href="https://letras.davelgomoz.com/" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé una aplicación web dirigida a escritores. Su objetivo
-                        es contabilizar y formatear texto con una interfaz amigable. Visite
-                        la página web para ver el trabajo final
+                        {t('projects.letras.content')}
                     </p>
-                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <span className="fw-bold">
+                        {t('gral.tech_used')}
+                    </span>
                     <ul class="list-group list-group-horizontal">
                         <li className="list-group-item">Javascript</li>
                         <li className="list-group-item">Webpack</li>
