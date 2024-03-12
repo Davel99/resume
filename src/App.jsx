@@ -10,8 +10,7 @@ import ScrollToTop from './utility/ScrollToTop';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
+    <>
       <header>
         <Header></Header>
       </header>
@@ -27,7 +26,7 @@ function App() {
         </Routes>
       </main>
       <Footer></Footer>
-    </Router>
+    </>
   );
 }
 
