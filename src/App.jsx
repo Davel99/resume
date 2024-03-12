@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import './config/i18n';
 import Header from './components/Header';
 import Footer from './components/Footer'
@@ -20,7 +20,10 @@ function App() {
           <Route path='/my-profile' Component={Home} />
           <Route path='/my-experience' Component={Experience} />
           <Route path='/my-projects' Component={Projects} />
-          <Route Component={Home} />
+          <Route
+            path="*"
+            element={<Navigate to="/my-profile" replace />}
+          />
         </Routes>
       </main>
       <Footer></Footer>
