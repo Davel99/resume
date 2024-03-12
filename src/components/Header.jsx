@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import LanguageSelector from "../pages/microcomponents/LanguageSelector";
 
 const Header = () => {
     const { t } = useTranslation();
@@ -18,7 +19,6 @@ const Header = () => {
     return (
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
             <div class="container-fluid">
-
                 <Link class="navbar-brand fw-bold fs-4" to="/my-profile">Joel David G.O</Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,16 +40,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <section className="d-flex">
-                    <div class="nav-item dropdown mx-3">
-                        <a class="nav-link dropdown-toggle text-decoration-none text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            LANGUAGE
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
+                    <LanguageSelector></LanguageSelector>
                 </section>
             </div>
         </nav>
