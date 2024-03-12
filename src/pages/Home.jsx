@@ -1,7 +1,10 @@
 import HomePresentation from "./subcomponents/HomePresentation"
 import PresentationCard from "./subcomponents/PresentationCard"
+import { useTranslation } from "react-i18next"
 
 const Home = () => {
+    const { t } = useTranslation();
+
     return (
         <div class="container pt-5">
             <div className="row">
@@ -14,7 +17,7 @@ const Home = () => {
             </div>
             <div className="container mt-3 pt-3 bg-semil border rounded border-secondary text-dark">
                 <p>
-                    Contáctame si tienes dudas
+                    {t('pages.home.goodbye')}
                 </p>
             </div>
         </div>

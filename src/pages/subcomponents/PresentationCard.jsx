@@ -1,9 +1,11 @@
 import './PresentationCard.css'
+import { useTranslation } from 'react-i18next'
 
 const PresentationCard = () => {
+    const { t } = useTranslation();
     return (
         <div class="card">
-            <div class="card-header mb-3 text-center">Información del aspirante</div>
+            <div class="card-header mb-3 text-center"></div>
             <img class="card-img-to profile-pic m-auto" src="/foto-perfil.png" alt="Profile pic" />
             <div class="card-body text-dark text-center">
                 <h3 class="card-title pt-3">
@@ -15,10 +17,12 @@ const PresentationCard = () => {
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <div className="col-12 list-item">
-                        <span>Máximo grado de estudios:</span>
+                        <span>
+                            {t('pages.home.studies_tag')}
+                        </span>
                     </div>
                     <div class="d-flex justify-content-center">
-                        Licenciatura en Ingeniería Mecatrónica
+                        {t('pages.home.studies_res')}
                     </div>
                 </li>
                 <li class="list-group-item">
@@ -32,7 +36,9 @@ const PresentationCard = () => {
                 <li class="list-group-item">
                     <div className="col-12 list-item">
                         <i class="fa-solid fa-phone"></i>
-                        <span>Número de celular:</span>
+                        <span>
+                            {t('pages.home.phone_tag')}
+                        </span>
                     </div>
                     <div class="d-flex justify-content-center">
                         (+52) 833-144-1197

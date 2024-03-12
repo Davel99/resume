@@ -4,6 +4,14 @@
         "experience": "Experiencia profesional",
         "projects": "Proyectos realizados"
     },
+    "pages":{
+        "home":{
+            "studies_tag": "Máximo grado de estudios",
+            "studies_res": "Licenciatura en Ingeniería Mecatrónica",
+            "phone_tag": "Número de celular",
+            "goodbye": "Contáctame si tienes alguna duda"
+        }
+    },
     "langs": {
         "language": "Lenguaje",
         "es": "Español",
