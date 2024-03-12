@@ -15,6 +15,29 @@
             "goodbye": "Contáctame si tienes alguna duda"
         }
     },
+    "experience": {
+        "CFE": {
+            "company": "Comisión Federal de Electricidad",
+            "role": "Programador Junior",
+            "time": "[6 meses] - ENE - JUN 2020",
+            "type": "Prácticas profesionales",
+            "content": "Desarrollé de una aplicación web con PHP para la automatización de un análisis de datos mensual. El Departamento de Contratos Legados analizaba documentos con cerca de 4000 registros manualmente en el plazo de una o más semanas. Gracias a mi solución, la tarea se redujo a menos de diez minutos."
+        },
+        "INFOSYS": {
+            "company": "Infosys",
+            "role": "Systems Engineer",
+            "time": "[2 años] - MAR 2022 - MAR 2024",
+            "type": "Empleado remoto",
+            "content": "Infosys es una empresa de consultoría IT internacional. Me involucré en un ambiente de negocios en inglés con equipos globalmente distribuidos.",
+            "bullets":[
+                "Participé en desarrollo back-end con Java - Spring Boot",
+                "Participé en desarrollo front-end con Typescript - AngularJS",
+                "Participé en diseño de base de datos(MySQL) y estuve encargado del catálogo de metadatos",
+                "Realicé Test Driven Development con JUnit y Mockito",
+                "Participé en un proyecto de migración de servidores y base de datos. Implementé ETL pipelines con Python, Airflow, Kafka y Spark. Además, estuve involucrado en Amazon Web Services (CloudWatch y Lambda)"
+            ]
+        }
+    },
     "projects": {
         "resume": {
             "to": "Sobre esta página web",
