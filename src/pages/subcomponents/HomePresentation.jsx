@@ -26,11 +26,11 @@ const HomePresentation = () => {
                 </p>
             </div>
 
-            <Link className="btn w-100 my-3 btn-danger d-flex align-items-center justify-content-center" to="/my-experience">
+            <Link className="btn w-100 my-3 btn-primary d-flex align-items-center justify-content-center" to="/my-experience">
                 <span>Mi experiencia &nbsp;</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </Link>
-            <Link className="btn w-100 my-3 btn-danger d-flex align-items-center justify-content-center" to="/my-projects">
+            <Link className="btn w-100 my-3 btn-primary d-flex align-items-center justify-content-center" to="/my-projects">
                 <span>Mis proyectos &nbsp;</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </Link>
