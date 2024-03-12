@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 import ProjectHeading from "../microcomponents/ProjectHeading"
 import RepoLink from "../microcomponents/RepoLink"
+import { useTranslation } from "react-i18next"
 
 const HomePresentation = () => {
+    const { t } = useTranslation();
     return (
         <>
             <div className="container text-center bg-semid">
@@ -11,27 +13,30 @@ const HomePresentation = () => {
                 </div>
                 <hr />
                 <div className="col-12">
-                    <span>Ingeniero en Mecatrónica | Desarrollador </span>
+                    <span>
+                        {t('pages.home.joel_title')}
+                    </span>
                 </div>
             </div>
             <div className="container mt-3 pt-3 bg-semil border rounded border-secondary text-dark">
                 <p>
-                    Al estudiar mi carrera, desarrollé un gusto especial por todo lo relacionado al software.
-                    Realicé mis prácticas profesionales en CFE (organismo del gobierno) desarrollando una aplicación web para el análisis de datos.
-                    Más adelante construí una aplicación web destinada a consultorios médicos como parte de mi tesis profesional.
+                    {t('pages.home.info_1')}
                 </p>
                 <p>
-                    Gracias a mi gusto por la programación y mi constante interés en perseguir una carrera al respecto,
-                    hoy en día soy un ingeniero con más de dos años de experiencia en el desarrollo de software.
+                    {t('pages.home.info_2')}
                 </p>
             </div>
 
             <Link className="btn w-100 my-3 btn-primary d-flex align-items-center justify-content-center" to="/my-experience">
-                <span>Mi experiencia &nbsp;</span>
+                <span>
+                    {t('header.experience')}
+                    &nbsp;</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </Link>
             <Link className="btn w-100 my-3 btn-primary d-flex align-items-center justify-content-center" to="/my-projects">
-                <span>Mis proyectos &nbsp;</span>
+                <span>
+                    {t('header.projects')}
+                    &nbsp;</span>
                 <i class="fa-solid fa-arrow-right"></i>
             </Link>
 
@@ -45,7 +50,9 @@ const HomePresentation = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="my-3">
-                            <RepoLink href="https://github.com/Davel99/resume">Visita el repositorio de esta web</RepoLink>
+                            <RepoLink href="https://github.com/Davel99/resume">
+                                {t('gral.visit_repo')}
+                            </RepoLink>
                         </div>
                     </div>
                     <div className="col-12 pt-3">
