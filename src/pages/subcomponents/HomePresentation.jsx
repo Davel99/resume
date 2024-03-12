@@ -44,9 +44,9 @@ const HomePresentation = () => {
                 <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                     <div className="col-md-6">
                         <ProjectHeading
-                            to="Sobre página web"
-                            title="SPA hecha en ReactJS"
-                            source="Proyecto personal" />
+                            to={t('projects.resume.to')}
+                            title={t('projects.resume.title')}
+                            source={t('projects.resume.source')} />
                     </div>
                     <div className="col-md-6">
                         <div className="my-3">
@@ -57,9 +57,9 @@ const HomePresentation = () => {
                     </div>
                     <div className="col-12 pt-3">
                         <p>
-                            Desarrollé esta web como prueba de mis habilidades y para mostrar mis otros proyectos
+                            {t('projects.resume.content')}
                         </p>
-                        <span className="fw-bold">Tecnologías usadas:</span>
+                        <span className="fw-bold">{t('gral.tech_used')}</span>
                         <ul class="list-group list-group-horizontal">
                             <li className="list-group-item">ReactJS</li>
                             <li className="list-group-item">React Router</li>

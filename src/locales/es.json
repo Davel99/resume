@@ -10,9 +10,17 @@
             "studies_res": "Licenciatura en Ingeniería Mecatrónica",
             "phone_tag": "Número de celular",
             "joel_title": "Ingeniero en Mecatrónica | Desarrollador",
-            "info_1":"Al estudiar mi carrera, desarrollé un gusto especial por todo lo relacionado al software. Realicé mis prácticas profesionales en CFE (organismo del gobierno) desarrollando una aplicación web para el análisis de datos.            Más adelante construí una aplicación web destinada a consultorios médicos como parte de mi tesis profesional.",
+            "info_1": "Al estudiar mi carrera, desarrollé un gusto especial por todo lo relacionado al software. Realicé mis prácticas profesionales en CFE (organismo del gobierno) desarrollando una aplicación web para el análisis de datos.            Más adelante construí una aplicación web destinada a consultorios médicos como parte de mi tesis profesional.",
             "info_2": "Gracias a mi gusto por la programación y mi constante interés en perseguir una carrera al respecto, hoy en día soy un ingeniero con más de dos años de experiencia en el desarrollo de software.",
             "goodbye": "Contáctame si tienes alguna duda"
+        }
+    },
+    "projects": {
+        "resume": {
+            "to": "Sobre esta página web",
+            "title": "SPA hecha con ReactJS",
+            "source": "Proyecto personal",
+            "content": "Desarrollé esta web como prueba de mis habilidades y para mostrar mis otros proyectos"
         }
     },
     "langs": {
@@ -22,6 +30,7 @@
         "ja": "Japonés"
     },
     "gral": {
-        "visit_repo": "Visita este repositorio"
+        "visit_repo": "Visita este repositorio",
+        "tech_used": "Tecnologías usadas"
     }
 }
