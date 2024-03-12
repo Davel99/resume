@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="col-sm-12 col-md-4 text-dark">
                     <PresentationCard></PresentationCard>
                 </div>
-                <div className="col-sm-12 col-md-8 pb-5">
+                <div className="col-sm-12 col-md-8 py-5">
                     <HomePresentation></HomePresentation>
                 </div>
             </div>
