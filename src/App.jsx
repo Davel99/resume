@@ -17,11 +17,10 @@ function App() {
       </header>
       <main className="text-white py-5">
         <Routes>
-          <Route path='/home' Component={Home} />
-          <Route path='/' Component={Home} />
           <Route path='/my-profile' Component={Home} />
           <Route path='/my-experience' Component={Experience} />
           <Route path='/my-projects' Component={Projects} />
+          <Route Component={Home} />
         </Routes>
       </main>
       <Footer></Footer>
