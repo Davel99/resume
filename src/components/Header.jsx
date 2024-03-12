@@ -19,7 +19,7 @@ const Header = () => {
         <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-body-tertiary">
             <div class="container-fluid">
 
-                <Link class="navbar-brand" to="/my-profile">Joel David G.O</Link>
+                <Link class="navbar-brand fw-bold fs-4" to="/my-profile">Joel David G.O</Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
