@@ -18,8 +18,8 @@ i18n
         translation: translationES,
       },
     },
-    lng: 'en', // default language
-    fallbackLng: 'en', // fallback language
+    lng: 'es', // default language
+    fallbackLng: 'es', // fallback language
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
