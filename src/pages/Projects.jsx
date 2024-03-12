@@ -1,3 +1,4 @@
+import ExtLink from "./microcomponents/ExtLink"
 import ProjectHeading from "./microcomponents/ProjectHeading"
 import RepoLink from "./microcomponents/RepoLink"
 
@@ -83,12 +84,7 @@ const Projects = () => {
                 <div className="col-md-6">
                     <div className="my-3">
                         <RepoLink href="https://github.com/Davel99/davel-blog-v1/tree/main" />
-                        <a href="https://davelgomoz.com/" className="btn btn-success w-100">
-                            Visitar sitio web
-                            &nbsp;
-                            &nbsp;
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        <ExtLink href="https://davelgomoz.com/" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
@@ -116,6 +112,7 @@ const Projects = () => {
                 <div className="col-md-6">
                     <div className="my-3">
                         <RepoLink href="https://github.com/Davel99/letras-app-v1/tree/main" />
+                        <ExtLink href="https://letras.davelgomoz.com/" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
