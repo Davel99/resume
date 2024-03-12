@@ -103,7 +103,6 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
-
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
@@ -164,8 +163,6 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
-
-
         </div>
     )
 }
