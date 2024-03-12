@@ -94,7 +94,7 @@ const Projects = () => {
                 <div className="col-12 pt-3">
                     <p>
                         Desarrollé un Wordpress theme para un escritor. Tiene estilos personalizados y creación de publicaciones especializadas
-                        (Libros)
+                        (Libros). Visite la página web para ver el trabajo final.
                     </p>
                     <span className="fw-bold">Tecnologías usadas:</span>
                     <ul class="list-group list-group-horizontal">
@@ -109,28 +109,26 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
-                        to="Dirigido a trabajadores de la CFE"
-                        title="Aplicación web de análisis de datos"
-                        source="Proyecto parte de mis prácticas profesionales" />
+                        to="Dirigido a escritores"
+                        title="Aplicación web para el procesamiento de textos"
+                        source="Proyecto personal" />
                 </div>
                 <div className="col-md-6">
                     <div className="my-3">
-                        <RepoLink href="https://github.com/Davel99/cfe_app/tree/main" />
+                        <RepoLink href="https://github.com/Davel99/letras-app-v1/tree/main" />
                     </div>
                 </div>
                 <div className="col-12 pt-3">
                     <p>
-                        Desarrollé de una aplicación web con PHP para la automatización de un análisis de datos mensual realizado por
-                        el Departamento de Contratos Legados. Se trata de una aplicación con arquitectura MVC que lee y genera archivos csv/xlsx
-                        con información filtrada según lo que pida el usuario. Tiene Administradores, Usuarios, control de contraseñas y una
-                        interfaz amigable realizada con Boostrap.
+                        Desarrollé una aplicación web dirigida a escritores. Su objetivo
+                        es contabilizar y formatear texto con una interfaz amigable. Visite
+                        la página web para ver el trabajo final
                     </p>
                     <span className="fw-bold">Tecnologías usadas:</span>
                     <ul class="list-group list-group-horizontal">
-                        <li className="list-group-item">PHP (MVC pattern)</li>
                         <li className="list-group-item">Javascript</li>
-                        <li className="list-group-item">Jquery</li>
-                        <li className="list-group-item">Bootstrap 4</li>
+                        <li className="list-group-item">Webpack</li>
+                        <li className="list-group-item">Bootstrap 5</li>
                     </ul>
                 </div>
             </div>
