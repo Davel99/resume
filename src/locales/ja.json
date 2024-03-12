@@ -1,86 +1,86 @@
 {
     "header": {
-        "home": "ホーム",
-        "experience": "職務経歴",
-        "projects": "プロジェクト"
+        "home": "Hōmu",
+        "experience": "Shokumu Keireki",
+        "projects": "Purojekuto"
     },
     "pages": {
         "home": {
-            "studies_tag": "最高学位",
-            "studies_res": "メカトロニクス工学の学士号",
-            "phone_tag": "電話番号",
-            "joel_title": "メカトロニクスエンジニア | 開発者",
-            "info_1": "学業の過程で、ソフトウェア関連の分野に特別な興味を持ちました。CFE（政府機関）での専門のインターンシップでは、データ分析のためのWebアプリケーションを開発しました。後に、専門論文の一環として、医療クリニック向けのWebアプリケーションを構築しました。",
-            "info_2": "プログラミングへの情熱とこの領域でのキャリアを追求する不屈の努力により、私は今やソフトウェアエンジニアとして2年以上の経験を積んでいます。",
-            "goodbye": "お問い合わせがある場合はお気軽にご連絡ください。"
+            "studies_tag": "Saikō Gakui",
+            "studies_res": "Mekatoronikusu Kōgaku no Gakushigō",
+            "phone_tag": "Denwa Bangō",
+            "joel_title": "Mekatoronikusu Enjinia | Kaihatsusha",
+            "info_1": "Gakugyō no katei de, Sofutowea kanren no bun'ya ni tokubetsu na kyōmi o mochimashita. CFE (seifu kikan) de no senmon no intānshippu de wa, Dēta Bunseki no tame no Web apurikēshon o kaihatsu shimashita. Nochi ni, senmon ronbun no ichi'kan to shite, iryō kurinikku muke no Web apurikēshon o kōchiku shimashita.",
+            "info_2": "Puroguramingu e no jōnetsu to kono ryōiki de no kyaria o tsuiseki suru fukutsu no doryoku ni yotte, watashi wa ima ya Sofutowea enjinia to shite 2-nen ijō no keiken o atsumemashita.",
+            "goodbye": "Otoiawase ga aru baai wa okigaru ni go renraku kudasai."
         },
         "projects": {
-            "aclaration": "非開示契約のため、Infosysで行ったプロジェクトのコードを表示したり、取り扱ったクライアントについて話したりすることはできません。以下の情報は、私のスキルを示す個人プロジェクトに関連するものです。"
+            "aclaration": "Hikai hoketsu no tame, Infosys de okonatta purojekuto no kōdo o hyōji shitari, toriatsukatta kuraianto ni tsuite hanashitari suru koto wa dekimasen. Kōko no jōhō wa, watashi no sukiru o shimesu kojin purojekuto ni kansuru mono desu."
         }
     },
     "experience": {
         "CFE": {
-            "company": "メキシコ連邦電力委員会",
-            "role": "ジュニアプログラマー",
-            "time": "[6ヶ月] - 2020年1月 - 6月",
-            "type": "専門インターンシップ",
-            "content": "私は、月次データ分析の自動化のためにPHPでWebアプリケーションを開発しました。遺産契約部門は、ほぼ4000レコードのドキュメントを1週間以上かけて手作業で分析していました。私のソリューションのおかげで、そのタスクは10分未満に短縮されました。"
+            "company": "Comisión Federal de Electricidad",
+            "role": "Junia Puroguramā",
+            "time": "[6 kagetsu] - 2020-nen 1-gatsu - 6-gatsu",
+            "type": "Senmon Intānshippu",
+            "content": "Watashi wa, tsukijigatsu de EPHP de Web apurikēshon o kaihatsu shimashita. Isan keiyaku bu no shiryō wa, hotondo 4000-rekōdo no dokyumento o 1-shūkan ijō kakete, tezukuri de bunseki shite imashita. Watashi no soryūshon no okage de, sono tāsuku wa 10-fun ijō ni shōshō saremashita."
         },
         "INFOSYS": {
             "company": "Infosys",
-            "role": "システムエンジニア",
-            "time": "[2年] - 2022年3月 - 2024年3月",
-            "type": "リモート従業員",
-            "content": "Infosysは国際的なITコンサルティング会社です。私は、世界各地に分散したチームと英語でのビジネス環境に参加しました。",
+            "role": "Shisutemu Enjinia",
+            "time": "[2-nen] - 2022-nen 3-gatsu - 2024-nen 3-gatsu",
+            "type": "Rimōto Enjinpōi",
+            "content": "Infosys wa kokusaiteki na IT konsarutingu kaisha desu. Watashi wa, sekai kakuchi ni bunpatsu shita chiimu to eigo de no bijinesu kankyō ni sanka shimashita.",
             "bullets": [
-                "Java - Spring Bootを使用したバックエンド開発に貢献",
-                "Typescript - AngularJSを使用したフロントエンド開発に貢献",
-                "データベース設計（MySQL）に参加し、メタデータカタログを担当",
-                "JUnitおよびMockitoを使用したテスト駆動開発を実践",
-                "サーバーおよびデータベースの移行プロジェクトに関与しました。Python、Airflow、Kafka、Sparkを使用したETLパイプラインを実装しました。さらに、Amazon Web Services（CloudWatchおよびLambda）に関与しました。"
+                "Java - Spring Boot o shiyō shita bakkuendo kaihatsu ni kōken shimashita",
+                "Typescript - AngularJS o shiyō shita furontoendo kaihatsu ni kōken shimashita",
+                "Dētabēsu sekkei (MySQL) ni sanka shi, metadēta katarogu o tantō shimashita",
+                "JUnit oyobi Mockito o shiyō shita tesuto doraibun kaihatsu o jisshō shimashita",
+                "Sābā to dētabēsu no ikan, ikaihen purojekuto ni kankaishimashita. Python, Airflow, Kafka, Spark o shiyō shita ETL pairain o jissō shimashita. Mata, Amazon Web Services (CloudWatch to Lambda) ni kankaishimashita."
             ]
         }
     },
     "projects": {
         "resume": {
-            "to": "このウェブサイトについて",
-            "title": "ReactJSで作成されたオンライン履歴書",
-            "source": "個人プロジェクト",
-            "content": "このウェブサイトは、私のスキルを証明し、他のプロジェクトを紹介するために開発されました。"
+            "to": "Kono Webu Saito ni tsuite",
+            "title": "ReactJS de Tsukurareta Onrain Rirekisho",
+            "source": "Kojin Purojekuto",
+            "content": "Kono Webu Saito wa, watashi no sukiru o shōmei shi, hoka no purojekuto o shōkai suru tame ni kaihatsu sare mashita."
         },
         "cfe": {
-            "to": "CFEの従業員向け",
-            "title": "データ分析Webアプリケーション",
-            "source": "専門インターンシップの一環としてのプロジェクト",
-            "content": "私は、遺産契約部門が月次データ分析を自動化するためにPHPでWebアプリケーションを開発しました。ユーザーの要求に応じて情報をフィルタリングし、csv/xlsxファイルを読み込んで生成するMVCアーキテクチャのアプリケーションです。管理者、ユーザー、パスワードコントロール、Bootstrapで作成された使いやすいインターフェイスが含まれています。"
+            "to": "CFE no jigyōsha muke",
+            "title": "Dēta Bunseki Webu Apurikēshon",
+            "source": "Senmon Intānshippu no ichi'kan toshite no purojekuto",
+            "content": "Watashi wa, isan keiyaku bu ga tsukijigatsu no dēta bunseki o jidōka suru tame ni PHP de Web apurikēshon o kaihatsu shimashita. Yūzā no yōkyū ni ōjite jōhō o furutāringu shi, csv/xlsx fairu o yomi komi, shikendekitara sakusei suru MVC kōzō no apurikēshon desu. Adominisutorētā, yūzā, pasuwādo kontorōru, Būtsutorappu de tsukurareta shiyōyasui intāfeisu ga fukumarete imasu."
         },
         "lishor": {
-            "to": "リンク短縮が必要な方向け",
-            "title": "リンク短縮サービス",
-            "source": "個人プロジェクト",
-            "content": "私は、リンクの短縮化のためにExpressJS + TypescriptでWebアプリケーションを開発しました。ドッカー化されており、すぐに使用できます。私の個人的な目標は、Infosysで習得したすべてのプロフェッショナル開発コンセプト（TDD、レイヤードアーキテクチャ、オブジェクト指向プログラミング、データ転送オブジェクト、エラーハンドリングなど）を適用することでした。"
+            "to": "Rinku Tanshuku ga hitsuyō na kata muke",
+            "title": "Rinku Tanshuku Sābisu",
+            "source": "Kojin Purojekuto",
+            "content": "Watashi wa, Rinku no tanshuku o okonau tame ni ExpressJS + Typescript de Web apurikēshon o kaihatsu shimashita. Dokkāka sarete orimasu. Watashi no kojinteki na mokuteki wa, Infosys de shūtoku shita subete no purofesshonarudeberomento no kontseputo (TDD, Reiyādo ākitekucha, Oubujekuto-shi, Dēta Toraansufā Obujekuto, Erā Handaringu, nado) o tekiyō suru koto deshita."
         },
         "davel": {
-            "to": "作家向け",
-            "title": "作家用のWordpressブログ",
-            "source": "個人プロジェクト",
-            "content": "私は、作家のためのWordpressテーマを開発しました。カスタムスタイルと専門の投稿（書籍）が特長です。ウェブサイトを訪問して最終作業をご覧ください。"
+            "to": "Sakka muke",
+            "title": "Sakka-yō no Wordpress Burogu",
+            "source": "Kojin Purojekuto",
+            "content": "Watashi wa, Sakka no tameno Wordpress tēma o kaihatsu shimashita. Kasutamu sutairu to senmon no sōkō no sakusei (Hon) ga tokuchō desu. Webu saito o hōmon shite saishū sagyō o goran kudasai."
         },
         "letras": {
-            "to": "作家向け",
-            "title": "テキスト処理Webアプリケーション",
-            "source": "個人プロジェクト",
-            "content": "私は、作家を対象としたWebアプリケーションを開発しました。その目的は、ユーザーフレンドリーなインターフェイスでテキストを計数およびフォーマットすることです。ウェブサイトを訪問して最終作業をご覧ください。"
+            "to": "Sakka muke",
+            "title": "Tekisuto Shori Webu Apurikēshon",
+            "source": "Kojin Purojekuto",
+            "content": "Watashi wa, sakka o taishō to shita Webu apurikēshon o kaihatsu shimashita. Sono mokuteki wa, yūzāfurīndorī intāfeisu de tekisuto o kōkei shi, keisan suru koto desu. Webu saito o hōmon shite saishū sagyō o goran kudasai."
         }
     },
     "langs": {
-        "language": "言語",
-        "es": "スペイン語",
-        "en": "英語",
-        "ja": "日本語"
+        "language": "Gengo",
+        "es": "Supein-go",
+        "en": "Eigo",
+        "ja": "Nihongo"
     },
     "gral": {
-        "visit_repo": "このリポジトリを訪問する",
-        "tech_used": "使用されたテクノロジー"
+        "visit_repo": "Kono Repositorio o hōmon suru",
+        "tech_used": "Tsukatta Gijutsu"
     }
 }
