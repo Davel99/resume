@@ -9,5 +9,8 @@
         "es": "Español",
         "en": "Inglés",
         "ja": "Japonés"
+    },
+    "gral":{
+        "visit_repo": "Visita el repositorio de este proyecto"
     }
 }
