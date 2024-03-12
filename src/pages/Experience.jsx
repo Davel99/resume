@@ -5,10 +5,10 @@ const Experience = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <span>CFE</span>
-                    <h3>Programador Junior</h3>
+                    <h3 className="fw-bold">Programador Junior</h3>
                 </div>
                 <div className="col-md-6">
-                    <span>[6 meses] - ENE - JUN 2020</span>
+                    <span className="fw-light">[6 meses] - ENE - JUN 2020</span>
                     <h5>Prácticas profesionales</h5>
                 </div>
                 <div className="col-12 pt-3">
@@ -23,10 +23,10 @@ const Experience = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <span>Infosys</span>
-                    <h3>Systems Engineer</h3>
+                    <h3 className="fw-bold">Systems Engineer</h3>
                 </div>
                 <div className="col-md-6">
-                    <span>[2 años] - MAR 2022 - MAR 2024</span>
+                    <span className="fw-light">[2 años] - MAR 2022 - MAR 2024</span>
                     <h5>Empleado remoto</h5>
                 </div>
                 <div className="col-12 pt-3">
