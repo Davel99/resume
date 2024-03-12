@@ -1,8 +1,86 @@
 {
     "header": {
         "home": "Home",
-        "experience": "Professional experience",
-        "projects": "Projects done"
+        "experience": "Professional Experience",
+        "projects": "Projects"
+    },
+    "pages": {
+        "home": {
+            "studies_tag": "Highest Degree",
+            "studies_res": "Bachelor's Degree in Mechatronics Engineering",
+            "phone_tag": "Phone Number",
+            "joel_title": "Mechatronics Engineer | Developer",
+            "info_1": "During my academic journey, I developed a special interest in software-related fields. I undertook my professional internship at CFE (a government agency) where I developed a web application for data analysis. Later on, as part of my professional thesis, I constructed a web application tailored for medical clinics.",
+            "info_2": "With a passion for programming and a relentless pursuit of a career in this domain, I have now accrued over two years of experience as a software engineer.",
+            "goodbye": "Feel free to contact me if you have any inquiries."
+        },
+        "projects": {
+            "aclaration": "Due to Non-Disclosure Agreements, I am unable to showcase the code of my projects undertaken at Infosys or discuss the clients I worked with. The following information pertains to personal projects that demonstrate my skills."
+        }
+    },
+    "experience": {
+        "CFE": {
+            "company": "Federal Electricity Commission",
+            "role": "Junior Programmer",
+            "time": "[6 months] - JAN - JUN 2020",
+            "type": "Internship",
+            "content": "I developed a web application with PHP for automating monthly data analysis. The Legacy Contracts Department used to manually analyze documents with nearly 4000 records within a week or more. Thanks to my solution, the task was reduced to less than ten minutes."
+        },
+        "INFOSYS": {
+            "company": "Infosys",
+            "role": "Systems Engineer",
+            "time": "[2 years] - MAR 2022 - MAR 2024",
+            "type": "Remote Employee",
+            "content": "Infosys is an international IT consulting firm. I engaged in a business environment in English with globally distributed teams.",
+            "bullets": [
+                "Contributed to backend development using Java - Spring Boot",
+                "Contributed to frontend development using Typescript - AngularJS",
+                "Participated in database design (MySQL) and was responsible for the metadata catalog",
+                "Practiced Test Driven Development with JUnit and Mockito",
+                "Engaged in a server and database migration project. Implemented ETL pipelines with Python, Airflow, Kafka, and Spark. Additionally, involved in Amazon Web Services (CloudWatch and Lambda)"
+            ]
+        }
+    },
+    "projects": {
+        "resume": {
+            "to": "About this website",
+            "title": "Online Resume built with ReactJS",
+            "source": "Personal Project",
+            "content": "I developed this website as a testament to my skills and to showcase my other projects."
+        },
+        "cfe": {
+            "to": "Targeted towards CFE employees",
+            "title": "Data Analysis Web Application",
+            "source": "Project undertaken during my professional internship",
+            "content": "I developed a web application with PHP for automating monthly data analysis conducted by the Legacy Contracts Department. It's an MVC architecture application that reads and generates csv/xlsx files with filtered information as per user requests. It includes Administrators, Users, password control, and a user-friendly interface made with Bootstrap."
+        },
+        "lishor": {
+            "to": "Targeted towards anyone needing their own Link Shortener",
+            "title": "Link Shortener App",
+            "source": "Personal Project",
+            "content": "I developed a web application with ExpressJS + Typescript for link shortening. It's dockerized and ready to use. My personal goal was to apply all the professional development concepts I acquired at Infosys (TDD, Layered Architecture, Object-Oriented Programming, Data Transfer Objects, Error Handling, etc...)"
+        },
+        "davel": {
+            "to": "Targeted towards a writer",
+            "title": "Wordpress Blog for Writer",
+            "source": "Personal Project",
+            "content": "I developed a Wordpress theme for a writer. It features custom styles and specialized post creation (Books). Visit the website to see the final work."
+        },
+        "letras": {
+            "to": "Targeted towards writers",
+            "title": "Text Processing Web Application",
+            "source": "Personal Project",
+            "content": "I developed a web application aimed at writers. Its objective is to tally and format text with a user-friendly interface. Visit the website to see the final work."
+        }
+    },
+    "langs": {
+        "language": "Language",
+        "es": "Spanish",
+        "en": "English",
+        "ja": "Japanese"
+    },
+    "gral": {
+        "visit_repo": "Visit this repository",
+        "tech_used": "Technologies used"
     }
 }
-  
