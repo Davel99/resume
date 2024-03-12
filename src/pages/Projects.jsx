@@ -48,6 +48,31 @@ const Projects = () => {
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
                 <div className="col-md-6">
                     <ProjectHeading
+                        to="Sobre página web"
+                        title="SPA hecha en ReactJS"
+                        source="Proyecto personal" />
+                </div>
+                <div className="col-md-6">
+                    <div className="my-3">
+                    </div>
+                </div>
+                <div className="col-12 pt-3">
+                    <p>
+                        Desarrollé esta aplicación como prueba de mis habilidades y para mostrar mis otros proyectos
+                    </p>
+                    <span className="fw-bold">Tecnologías usadas:</span>
+                    <ul class="list-group list-group-horizontal">
+                        <li className="list-group-item">ReactJS</li>
+                        <li className="list-group-item">React Router</li>
+                        <li className="list-group-item">i18n (for multiple languages)</li>
+                        <li className="list-group-item">Bootstrap 5</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
+                <div className="col-md-6">
+                    <ProjectHeading
                         to="Dirigido a quien sea que desee tener su propio Acortador de Links"
                         title="Acortador de Links"
                         source="Proyecto personal" />
