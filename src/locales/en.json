@@ -1,5 +1,8 @@
 {
-    "hello": "Hello from header",
-    "welcome": "Welcome to our website"
+    "header": {
+        "home": "Home",
+        "experience": "Professional experience",
+        "projects": "Projects done"
+    }
 }
   
