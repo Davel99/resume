@@ -74,15 +74,15 @@ footer {
     opacity: 0.95;
   }
   25%{
-    transform: scale(1.05);
+    transform: scale(1.025);
     opacity: 0.975;
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 1;
   }
   75%{
-    transform: scale(1.05);
+    transform: scale(1.025);
     opacity: 0.975;
   }
   100% {
