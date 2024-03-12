@@ -1,6 +1,6 @@
 {
   "name": "my-resume",
-  "homepage": "https://davel99.github.io/resume/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
