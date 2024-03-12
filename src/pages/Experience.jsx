@@ -35,10 +35,10 @@ const Experience = () => {
                 </p>
                 <ul>
                     <li>Participé en desarrollo back-end con Java - Spring Boot</li>
+                    <li>Participé en desarrollo front-end con Typescript - AngularJS</li>
                     <li>Participé en diseño de base de datos(MySQL) y estuve encargado del catálogo de metadatos</li>
                     <li>Realicé Test Driven Development con JUnit y Mockito</li>
-                    <li>P
-                        articipé en un proyecto de migración de servidores y base de datos donde implementé ETL pipelines
+                    <li>Participé en un proyecto de migración de servidores y base de datos. Implementé ETL pipelines
                         con Python, Airflow, Kafka y Spark. Además, estuve involucrado en Amazon Web Services
                         (CloudWatch y Lambda)
                     </li>
