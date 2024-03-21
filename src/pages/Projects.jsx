@@ -43,6 +43,23 @@ const Projects = () => {
                         <li className="list-group-item">Bootstrap 4</li>
                     </ul>
                 </div>
+
+                <div className="col-12 pt-3 row">
+                    <hr />
+                    <div className="col-md-6">
+                        <img src="/resume/cfe_app-3.jpg" className="d-block w-100" alt="..." />
+                    </div>
+
+                    <div className="col-md-6 row">
+                        <div className="row col-12 my-2">
+                            <img src="/resume/cfe_app-1.jpg" className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="row col-12 my-2">
+                            <img src="/resume/cfe_app-2.jpg" className="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <hr />
+                </div>
             </div>
 
             <div className="row border border-dark rounded bg-semil text-dark p-3 my-3">
@@ -131,6 +148,12 @@ const Projects = () => {
                         <li className="list-group-item">Wordpress-CLI</li>
                         <li className="list-group-item">Bootstrap 4</li>
                     </ul>
+                </div>
+
+                <div className="col-12 pt-3 px-5">
+                    <hr />
+                    <img src="/resume/davel-blog-1.png" className="d-block w-100" alt="..." />
+                    <hr />
                 </div>
             </div>
 
