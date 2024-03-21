@@ -33,7 +33,7 @@
             "type": "Empleado remoto",
             "content": "Infosys es una empresa de consultoría IT internacional. Me involucré en un ambiente de negocios en inglés con equipos globalmente distribuidos, trabajando bajo la metodología Scrum.",
             "bullets":[
-                "Participé en desarrollo back-end con Java - Spring Boot",
+                "Participé en desarrollo back-end con Java - Spring Boot y Python - FastAPI",
                 "Participé en desarrollo front-end con Typescript - AngularJS",
                 "Participé en diseño de base de datos(MySQL) y estuve encargado del catálogo de metadatos",
                 "Realicé Test Driven Development con JUnit y Mockito",
